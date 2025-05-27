@@ -1,43 +1,33 @@
-<<<<<<< HEAD
-# Dauane-Turma001-E2ETest
-=======
-# Playwright E2E
+# 🧪 Dauane-Turma001-E2ETest
 
-## GitHub Actions + SonarCloud
+## 🔗 URL Base do Projeto de Teste
+
+Este projeto realiza testes de ponta a ponta (E2E) utilizando a aplicação web disponível em:  
+👉 **[https://automationexercise.com](https://automationexercise.com)**
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- [Node.js](https://nodejs.org/) (versão >= 20.x)
+- [Playwright](https://playwright.dev/)
+- [GitHub Actions](https://github.com/features/actions)
+- [SonarCloud](https://sonarcloud.io)
+- [ZeroStep AI](https://zerostep.ai)
+
+---
+
+## ✅ Status do Projeto
 
 [![Build and Tests](https://github.com/ugioni/playwright-e2e/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/ugioni/playwright-e2e/actions/workflows/node.js.yml)
-
-</br>
-
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ugioni_playwright-e2e&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ugioni_playwright-e2e)
 
-## Getting Started
+---
 
-In order to execute this project you must follow the steps below:
+## 🛠️ Como Executar o Projeto
 
-1. Install [Node JS](https://nodejs.org/) (version >= 20.x)
-1. Run `npm i --save-dev` to install all the project dependencies
-1. Run `npx playwright install` to install the browsers used by Playwright
-1. Run `npm run ci` to execute the entire test suite
-1. Run `npm run show-report` to visualize the reports
-
-All execution artifacts can be found in `./artifacts`, if you want to remove these files run `npm run clean`.
-
-## Using ZeroStep AI
-</br>
-
-To use the AI ​​feature with ZeroStep, you must create the `zerostep.config.json` file in the root of the project and add your ZeroStep token.
-
-## Project Structure
-</br>
-<ul>
-    <li>Scenarios: Test scenario mapping</li>
-    <li>Support: Project structure files
-        <ul>
-            <li>Elements: Mapping the elements of each screen</li>
-            <li>Fixtures: Data configuration files</li>
-            <li>Pages: Logic used to perform actions in tests</li>
-        </ul>
-    </li>
-</ul>
->>>>>>> 9b380ff (Criação)
+1. Instale o [Node.js](https://nodejs.org/) (versão 20.x ou superior)
+2. Instale as dependências do projeto:
+   ```bash
+   npm i --save-dev
+   ```
